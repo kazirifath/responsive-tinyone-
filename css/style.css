@@ -1,0 +1,76 @@
+@font-face{
+	src:url(../fonts/Helvetica-Neue-Bold.ttf);
+	font-family:Helvetica-Neue-Bold;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	color:#010101;
+
+}
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 25px 0;
+}
+.menu ul li a{
+	font-family:Helvetica-Neue-Bold;
+	padding: 0 35px !important;
+	font-size: 22px;
+	transition: 1s;
+	color:#010101;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li:first-child a{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	color:#010101;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+
+/*header end*/
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+.inspire{
+	margin-top: 50px;
+}
+.inspire h1{
+	font-weight: 700;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.inspire h5{
+	font-size:20px;
+	color:#313841;
+	margin-bottom: 25px;
+
+
+}
+.inspire p{
+	font-size: 16px;
+	color:#555555;
+	margin-bottom: 35px;
+
+
+}
+.inspire ul li i{
+	font-size: 42px;
+	margin-right: 15px;
+}
+.ci { 
+    bottom: -80px;
+}
+.ci li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%
+}
+
+/*slider end*/
